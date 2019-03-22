@@ -38,110 +38,62 @@
             <a class="nav-link" href="#">THÚY TRẦN</a>
           </li>
           <li>
-            <i class="fa fa-user active" aria-hidden="true"></i>
+            <i class="fa fa-user active fa-1" aria-hidden="true"></i>
           </li>
         </ul>
       </div>
     </nav>
   </div>
   <div class="maincontent">
-    <div class="container">
-      <div class="row">
-        <i class="fa fa-home" aria-hidden="true">Trang chủ</i>
-      </div>
-      <h2 class="text-center">Tin Mới</h2>
-      <div class="row">
-        <div class="news-content col-md-4 wrap">
-          <img src="../assets/images/news1.png" alt="" />
-          <h5>Nên chọn loại cám nào cho gà</h5>
-          <p>
-            Trên thị trường hiện nay có rất nhiều loại cám gà, chọn loại nào
-            thì phù hợp với độ tuổi và giống gà của bà con...
-          </p>
+    <div class="container mt-5">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li><a href="#"><i class="fas fa-home"></i></a></li>
+          <li class="breadcrumb-item"><a href="#">Trang Chủ</a></li>
+          <li class="breadcrumb-item"><a href="#">Nông Sản</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Rượu Làng Vân</li>
+        </ol>
+      </nav>
+      <div class="row mt-5">
+        <div class="col-md-6">
+          <img src="https://loremflickr.com/500/350" />
         </div>
-        <div class="news-content col-md-4 wrap">
-          <img src="../assets/images/news2.png" alt="" />
-          <h5>Thời điểm thích hợp diệt sâu cho cà chua</h5>
-          <p>
-            Không nên phun thuốc trừ sâu vô tội vã để tránh gây nên sự tụ
-            độc cho cà chua. Cần chọn thời đúng thời điểm để diệt sâu...
-          </p>
-        </div>
-        <div class="news-content col-md-4 wrap">
-          <img src="../assets/images/news3.png" alt="" />
-          <h5>Bắp cải vào mùa thu hoạch</h5>
-          <p>
-            Hàng loạt các ruộng bắp cải của người dân bắt đầu vào vụ mùa thu
-            hoạch Có nên lo lắng về giá?...
-          </p>
-        </div>
-        <div class="news-content col-md-4 wrap">
-          <img src="../assets/images/news4.png" alt="" />
-          <h5>Nên chọn loại cám nào cho gà</h5>
-          <p>
-            Trên thị trường hiện nay có rất nhiều loại cám gà, chọn loại nào
-            thì phù hợp với độ tuổi và giống gà của bà con...
-          </p>
-        </div>
-        <div class="news-content col-md-4 wrap">
-          <img src="../assets/images/news5.png" alt="" />
-          <h5>Nên chọn loại cám nào cho gà</h5>
-          <p>
-            Trên thị trường hiện nay có rất nhiều loại cám gà, chọn loại nào
-            thì phù hợp với độ tuổi và giống gà của bà con...
-          </p>
-        </div>
-        <div class="news-content col-md-4 wrap">
-          <img src="../assets/images/news6.png" alt="" />
-          <h5>Nên chọn loại cám nào cho gà</h5>
-          <p>
-            Trên thị trường hiện nay có rất nhiều loại cám gà, chọn loại nào
-            thì phù hợp với độ tuổi và giống gà của bà con...
-          </p>
-        </div>
-      </div>
-      <a href="#"><span>Xem Thêm</span></a>
-      <h2 class="text-center">Nông Sản</h2>
-      <div class="row">
-        <div class="nongsan-img col-md-6">
-          <img src="../assets/images/nongsan1.png" alt="" />
-        </div>
-        <div class="nongsan col-md-6">
-          <h5>Vải thiều Bắc Giang</h5>
-          <p>
-            Vải thiều là đặc sản nổi tiếng của huyện Lục Ngạn – tỉnh Bắc
-            Giang. Quả vải thiều Lục Ngạn khi chín có màu đỏ tươi, cùi dày
-            hạt nhỏ, rất ngọt, nhiều nước hơn những vùng khác và giàu chất
-            dinh dưỡng tốt cho sức khỏe.
-          </p>
+        <div class="col-md-6">
+          <h1 class="text-primary">Rượu Làng Vân</h1>
+          <h4 class="text-muted">Được bán bởi: Thuý Trần(Đại lý)</h4>
+          <h4 class="text-muted">Giá:</h4>
+          <div class="price d-flex">
+            <div class="price-product">
+              <h1 class="text-success font-weight-bold">100,000</h1>
+            </div>
+            <div class="price-text mt-3 ml-3">
+              <h5 class="text-muted">VND</h5>
+            </div>
+          </div>
+          <h4 class="text-muted">Chọn số lượng:</h4>
+          <div class="count text-muted d-flex mt-3">
+            <div class="add mr-3">
+              <h1 class="border text-center" style="width: 40px;height: 40px;line-height: 30px">+</h1>
+            </div>
+            <div class="number mr-3">
+              <h3 class="border text-center" style="width: 60px;height: 40px;line-height: 40px">1</h3>
+            </div>
+            <div class="discount mr-3">
+              <h1 class="border text-center" style="width: 40px;height: 40px;line-height: 30px">-</h1>
+            </div>
+            <div class="text">
+              <h4>(lít)</h4>
+            </div>
+          </div>
+          <button type="button" class="btn btn-success mt-3 btn-block"
+            style="width: 400px; height: 55px;font-size: 30px">THÊM VÀO GIỎ HÀNG</button>
+
         </div>
 
-        <div class="nongsan col-md-6">
-          <h5>Vải thiều Bắc Giang</h5>
-          <p>
-            Vải thiều là đặc sản nổi tiếng của huyện Lục Ngạn – tỉnh Bắc
-            Giang. Quả vải thiều Lục Ngạn khi chín có màu đỏ tươi, cùi dày
-            hạt nhỏ, rất ngọt, nhiều nước hơn những vùng khác và giàu chất
-            dinh dưỡng tốt cho sức khỏe.
-          </p>
-        </div>
-        <div class="nongsan-img col-md-6">
-          <img src="../assets/images/nongsan1.png" alt="" />
-        </div>
-        <div class="nongsan-img col-md-6">
-          <img src="../assets/images/nongsan1.png" alt="" />
-        </div>
-        <div class="nongsan col-md-6">
-          <h5>Vải thiều Bắc Giang</h5>
-          <p>
-            Vải thiều là đặc sản nổi tiếng của huyện Lục Ngạn – tỉnh Bắc
-            Giang. Quả vải thiều Lục Ngạn khi chín có màu đỏ tươi, cùi dày
-            hạt nhỏ, rất ngọt, nhiều nước hơn những vùng khác và giàu chất
-            dinh dưỡng tốt cho sức khỏe.
-          </p>
-        </div>
       </div>
-      <a href="#"><span>Xem Thêm</span></a>
+      <div class="discription">
+        <h3 class="text-muted text-center p-5">MÔ TẢ SẢN PHẨM</h3>
+      </div>
     </div>
   </div>
   <div class="footer">
